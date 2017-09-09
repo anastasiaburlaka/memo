@@ -1,0 +1,58 @@
+body {
+	margin:0;
+	padding:0;
+	background:#ececec;
+	font:14px/1.5 "Helvetica Neue", Helvetica, Arial, san-serif;
+}
+article, footer, header { display: block; }
+article {
+	width:880px;
+	background:#fff;
+	margin:auto;
+	padding:40px;
+}
+article header {
+	color:#474747;
+	border-bottom:1px solid #474747
+}
+article footer {
+	font-size:90%;
+	color:#ccc;
+}
+img {
+	-webkit-box-shadow:
+		0 0 20px rgba(255, 85, 136, 1),
+		inset 0 0 20px rgba(255, 85, 136, 1);
+	-moz-box-shadow:
+		0 0 20px rgba(255, 85, 136, 1),
+		inset 0 0 20px rgba(255,255,255,1);
+	box-shadow:
+		0 0 20px rgba(255, 85, 136, 1),
+		inset 0 0 20px rgba(255,255,255,1);
+	-webkit-border-radius: 60em;
+	-moz-border-radius: 60em;
+	border-radius: 60em;
+}
+table {
+	border-collapse: collapse;
+	width: 50%;
+	border: 2px solid white;
+}
+td,th{
+	padding: 3px; 
+    border: 1px solid maroon; 
+	text-align:center;
+}
+
+.myClass{
+background: pink;
+width: 100%;
+text-align:center;
+}
+
+.myClass:hover {
+	background: #0ea;
+}
+
+
+

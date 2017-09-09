@@ -1,0 +1,58 @@
+:focus {
+	outline:0;
+}
+.add-memo {
+	cursor: default;
+	position:absolute;
+	top:10px;
+	left:10px;
+	font-size:200%;
+	background:#f68;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:100px;
+	-moz-border-radius:100px;
+	-webkit-border-radius:100px;
+	text-align:center;
+	line-height:90px;
+	width:100px;
+	height:90px;
+}
+.add-memo:hover {
+	background: #0ea;
+}
+.memo {
+	width:400px;
+	background:	#fcf;
+	box-shadow:3px 3px 10px rgba(0,0,0,0.45);
+	-moz-box-shadow:3px 3px 10px rgba(0,0,0,0.45);
+	-webkit-box-shadow:3px 3px 10px rgba(0,0,0,0.45);
+}
+.memo-content {
+	min-height:150px;
+	border-left:5px solid rgba(129, 150, 122, .75);
+	margin-left:30px;
+	padding:5px;
+}
+.memo-header {
+	padding:5px;
+	background:#f6f6f6;
+	border-bottom:2px solid #fefefe;
+	box-shadow:0 3px 5px rgba(0,0,0,0.25);
+	-moz-box-shadow:0 3px 5px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0 3px 5px rgba(0,0,0,0.25);
+}
+.memo-status {
+	color:#ccc;
+	padding:5px;
+}
+.close-memo {
+	background:	#eef;
+	float:right;
+	cursor:default;
+	color:#f1e;
+	padding:1px 5px;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+}
